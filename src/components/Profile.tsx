@@ -61,7 +61,7 @@ export const Profile = () => {
                     <p className="mt-2 text-start text-sm text-muted-foreground">
                         I am a software developer with a passion for building products that solve real-world problems.
                     </p>
-                    <Button className="mt-4 w-full" asChild>
+                    <Button className="mt-4 w-full" asChild disabled>
                         {/* TODO: Add resume link */}
                         {/* or link to schedule a meeting using Calendly or Cal*/}
                         <Link
