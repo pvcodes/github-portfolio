@@ -15,17 +15,17 @@ import useMediaQuery from "@/hook/useMediaQuery";
 const socials = [
     {
         name: "Github",
-        link: "https://github.com/achris-alonzo30",
+        link: "https://github.com/pvcodes",
         icon: <FaGithub className="size-4" />
     },
     {
         name: "LinkedIn",
-        link: "https://linkedin.com/in/lonzochris",
+        link: "https://linkedin.com/in/pvcodes",
         icon: <FaLinkedin className="size-4" />
     },
     {
         name: "X (Twitter)",
-        link: "https://x.com/lonz_chris",
+        link: "https://x.com/undefined810",
         icon: <FaXTwitter className="size-4" />
     }
     // TODO: Add more socials here
@@ -41,17 +41,17 @@ export const Profile = () => {
                     <div className="w-full flex flex-row justify-between items-top ">
                         <div className="flex flex-row md:flex-col items-center md:items-start w-full gap-4">
                             <Image
-                                width={150}
+                                width={300}
                                 height={150}
                                 quality={100}
-                                src="/avatar.svg"
+                                src="/me.png"
                                 alt="Profile Picture"
                                 className="rounded-full size-12 md:w-full h-auto object-cover border-2"
                             />
                             <div className="flex flex-col items-start justify-center">
-                                <h1 className="font-bold md:mt-4 text-xl md:text-2xl">Chris Lonzo</h1>
+                                <h1 className="font-bold md:mt-4 text-xl md:text-2xl">Pranjal Verma</h1>
                                 <p className="text-sm md:text-base text-muted-foreground">
-                                    Solopreneur Developer
+                                    Software Developer
                                 </p>
                             </div>
                         </div>
@@ -59,7 +59,7 @@ export const Profile = () => {
                     </div>
 
                     <p className="mt-2 text-start text-sm text-muted-foreground">
-                        I am a solopreneur developer with a passion for building products that solve real-world problems.
+                        I am a software developer with a passion for building products that solve real-world problems.
                     </p>
                     <Button className="mt-4 w-full" asChild>
                         {/* TODO: Add resume link */}

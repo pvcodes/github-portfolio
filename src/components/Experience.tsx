@@ -8,40 +8,24 @@ import { JobImages } from "@/components/JobImages";
 
 const jobs = [
     {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
+        role: "Associate Software Developer", // TODO: Replace with actual role
+        company: "Accenture Inc.", // TODO: Replace with actual company name
         logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2020 - Present",
+        duration: "2022 - Present",
         description:
-            "Lead developer for multiple high-impact projects, mentoring junior developers, and implementing best practices.",
-        link: "https://techinnovators.com",
+            "Specializing in Big Data development with expertise in Apache Kafka, Hadoop, and Spark.",
+        link: "https://accenture.com",
         images: [],
     },
     {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
+        role: "Full-Stack Developer", // TODO: Replace with actual role
+        company: "Walkover Inc.", // TODO: Replace with actual company name
         logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2018 - 2020",
+        duration: "Jan 2024 - Sept 2024",
         description:
-            "Developed and maintained various client projects, focusing on responsive design and performance optimization.",
-        link: "https://websolutions.com",
-        images: [
-            "/devvault.png",
-            "/devvault.png",
-        ],
-    },
-    {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
-        logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2016 - 2018",
-        description:
-            "Assisted in the development of web applications, gained experience in agile methodologies and version control.",
-        link: "https://startupventures.com",
-        images: [
-            "/devvault.png",
-            "/devvault.png",
-        ],
+            "Contributed to the development of automation software using a diverse set of technologies, including RabbitMQ, ReactJS, and Node.js.",
+        link: "https://walkover.in",
+        images: [],
     },
 ]
 
@@ -73,16 +57,16 @@ export const Experience = () => {
                                     </div>
                                 </div>
                                 <p className="text-xs text-muted-foreground mt-2 flex items-center">
-                                    <CalendarDays className="size-3 mr-2"/>
+                                    <CalendarDays className="size-3 mr-2" />
                                     {j.duration}
                                 </p>
                                 <p className="text-sm mt-2">{j.description}</p>
                                 {/* Job Images */}
-                                <JobImages 
-                                    role={j.role} 
+                                <JobImages
+                                    role={j.role}
                                     link={j.link}
-                                    images={j.images} 
-                                    duration={j.duration} 
+                                    images={j.images}
+                                    duration={j.duration}
                                 />
                             </li>
                         ))}

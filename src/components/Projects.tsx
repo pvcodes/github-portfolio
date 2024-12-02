@@ -7,35 +7,35 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export const projects = [
     {
-        title: "E-commerce Platform",
-        description: "A full-stack e-commerce solution with React, Node.js, and MongoDB",
+        title: "Pi Wallet",
+        description: "PiWallet is a Next.js application designed to securely manage your credentials using Solana wallet integration",
         tech: "React",
-        link: "#",
+        link: "https://github.com/pvcodes/piwallet",
     },
     {
-        title: "Task Management App",
-        description: "A productivity app built with React Native and Firebase",
-        tech: "React Native",
-        link: "#",
+        title: "Realtime Chat App",
+        description: "Realtime chat using GraphQL Live Queries, Next.js and NextAuth.js",
+        tech: "GraphQL",
+        link: "https://github.com/pvcodes/realtime-chat-app",
     },
     {
-        title: "Data Visualization Dashboard",
-        description: "An interactive dashboard using D3.js and Vue.js",
-        tech: "Vue.js",
-        link: "#",
+        title: "Native Websocket",
+        description: "A vanila websocket server implementation.",
+        tech: "Typescript",
+        link: "https://github.com/pvcodes/ws",
     },
     {
-        title: "AI Chatbot",
-        description: "A machine learning powered chatbot using Python and TensorFlow",
+        title: "PDF Chatbot",
+        description: "A machine learning powered pdf chatbot using Python and TensorFlow",
         tech: "Python",
-        link: "#",
+        link: "https://github.com/pvcodes/pdf-chatbot",
     },
 ]
 
 const techColors = {
     "React": "bg-blue-500",
-    "React Native": "bg-green-500",
-    "Vue.js": "bg-purple-500",
+    "GraphQL": "bg-green-500",
+    "Typescript": "bg-purple-500",
     "Python": "bg-yellow-500",
 }
 
