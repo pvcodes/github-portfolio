@@ -42,7 +42,7 @@ export const Profile = () => {
                         <div className="flex flex-row md:flex-col items-center md:items-start w-full gap-4">
                             <Image
                                 width={300}
-                                height={150}
+                                height={300}
                                 quality={100}
                                 src="/me.png"
                                 alt="Profile Picture"
