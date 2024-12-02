@@ -18,7 +18,7 @@ const themes = [
 ];
 
 // Props interface (placeholder for extensibility)
-interface Props {}
+type Props = unknown;
 
 // Main component
 const ThemeSwitcher: React.FC<Props> = () => {
