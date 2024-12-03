@@ -11,7 +11,7 @@ const jobs = [
         role: "Associate Software Developer", // TODO: Replace with actual role
         company: "Accenture Inc.", // TODO: Replace with actual company name
         logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2022 - Present",
+        duration: "2024 - Present",
         description:
             "Specializing in Big Data development with expertise in Apache Kafka, Hadoop, and Spark.",
         link: "https://accenture.com",
