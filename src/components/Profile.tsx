@@ -66,7 +66,9 @@ export const Profile = () => {
                         {/* or link to schedule a meeting using Calendly or Cal*/}
                         <Link
                             target="_blank"
-                            href="/resume.pdf"
+                            // href="/resume.pdf"
+                            href='mailto:pvcodes@gmail.com'
+
                             className="font-semibold"
                         >
                             CONTACT ME
